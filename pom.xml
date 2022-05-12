@@ -20,7 +20,7 @@
 
   <artifactId>apk-parent</artifactId>
   <version>0.0.26-SNAPSHOT</version>
-  <packaging>pom</packaging>
+  <packaging>war</packaging>
 
   <inceptionYear>2019</inceptionYear>
 
@@ -36,8 +36,8 @@
 
   <distributionManagement>
     <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      <id>maven-central-repository</id>
+      <url>http://192.168.126.140:8081/repository/maven-central-repository/</url>
     </snapshotRepository>
   </distributionManagement>
 
